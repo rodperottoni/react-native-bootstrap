@@ -1,8 +1,4 @@
 import { Platform, StyleSheet } from 'react-native';
-import { ifIphoneX } from 'react-native-iphone-x-helper';
-
-const brandLightGreen = '#00afab';
-const brandDarkBlue = '#002532';
 
 const globalStyles = StyleSheet.create({
     flexRow: { flexDirection: 'row' },
@@ -80,12 +76,8 @@ const globalStyles = StyleSheet.create({
     },
     fontRed: { color: 'red' },
     fontWhite: { color: 'white' },
-    fontDarkBlue: { color: brandDarkBlue },
-    fontLightGreen: { color: brandLightGreen },
     fontDarkGray: { color: '#333333' },
     fontLightGray: { color: '#AAAAAA' },
-    bgDarkBlue: { backgroundColor: brandDarkBlue },
-    bgLightGreen: { backgroundColor: brandLightGreen },
     bgWhite: { backgroundColor: 'white' },
     bgLightGray: { backgroundColor: '#F1F1F5' },
     // Visibility

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Button, Platform, ScrollView, StyleSheet, Text } from 'react-native';
+import { Button, View, Platform, ScrollView, StyleSheet, Text } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 
 import globalStyles from '../config/styles';
@@ -36,7 +36,11 @@ const DrawerContent = () => (
         <Text style={mbottom20}>
             You can close the drawer by pressing outside of it, dragging it or programatically (button below)
         </Text>
+
         <Button onPress={Actions.drawerClose} title="Close Drawer" />
+        
+        <View style={{ height: 20 }} />
+
         <Button onPress={AppRating.promptAppRating} title="Rate App" />
     </ScrollView>
 );

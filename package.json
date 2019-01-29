@@ -1,7 +1,7 @@
 {
     "name": "react-native-bootstrap",
     "version": "0.0.1",
-    "private": true,
+    "private": false,
     "scripts": {
         "start-android-debug": "react-native run-android --variant debug --appIdSuffix 'debug'",
         "start-android-staging": "react-native run-android --variant releaseStaging --appIdSuffix 'staging'",
@@ -24,7 +24,7 @@
         "moment-timezone": "0.5.23",
         "prop-types": "15.6.2",
         "react": "16.6.1",
-        "react-native": "0.57.7",
+        "react-native": "0.58.3",
         "react-native-code-push": "5.5.0",
         "react-native-device-info": "0.24.3",
         "react-native-firebase": "5.0.0",
@@ -49,7 +49,7 @@
         "eslint-plugin-jsx-a11y": "^6.1.2",
         "eslint-plugin-react": "^7.11.1",
         "jest": "23.6.0",
-        "metro-react-native-babel-preset": "0.48.5",
+        "metro-react-native-babel-preset": "0.51.1",
         "react-native-schemes-manager": "^1.0.5",
         "react-test-renderer": "16.6.1"
     },

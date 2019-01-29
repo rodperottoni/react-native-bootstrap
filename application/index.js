@@ -14,6 +14,7 @@ import ReduxThunk from 'redux-thunk';
 import codePush from 'react-native-code-push';
 import { createStore, applyMiddleware } from 'redux';
 
+import AndroidBackHandler from './libs/android-back-handler';
 import { UpdateProgressDialog } from './components';
 import reducers, { updateKeyboardHeight } from './store';
 import Router from './config/router';
@@ -91,6 +92,8 @@ class App extends Component {
             }
 
             StatusBar.setNetworkActivityIndicatorVisible = () => {};
+
+            AndroidBackHandler.start();
         }
     }
 

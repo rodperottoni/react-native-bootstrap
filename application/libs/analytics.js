@@ -10,7 +10,7 @@ const Analytics = {
     logEvent: (name, params) => firebase.analytics().logEvent(name, params),
     setUserId: userId => firebase.analytics().setUserId(userId),
     setUserProperty: (k, v) => firebase.analytics().setUserProperty(k, `${v}`),
-    onScreenChanged: () => {
+    onScreenChanged: (props, a) => {
         // Dont log RNRF-generated wrapper scenes.
         if (Actions.currentScene.startsWith('page_key')) return;
 

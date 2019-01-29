@@ -16,12 +16,13 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-  [FIRApp configure];
   NSURL *jsCodeLocation;
-
+  [FIRApp configure];
+  
   #ifdef DEBUG
     jsCodeLocation = [[RCTBundleURLProvider sharedSettings] jsBundleURLForBundleRoot:@"index" fallbackResource:nil];
   #else
+    // Get the latest bundle from CodePush
     jsCodeLocation = [CodePush bundleURL];
   #endif
 

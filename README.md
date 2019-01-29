@@ -47,12 +47,12 @@ Firebase is a great tool for any mobile application. It gives you Crash Reports,
 Firebase comes pre-configured with this project, and the only thing you need to do is download your project's **GoogleService-Info** files. Think of these files like "Authentication" files. They hold your Firebase project ID and some other information required for your app to talk with Google's services.
 
 ### Firebase - iOS setup:
-On iOS, each `GoogleService-Info.plist` file holds information of a single Firebase Application **ONLY**, which means we'll have to download 3 different `GoogleService-Info.plist` files. You can do this by following the steps outlined in these pages:
+On iOS, each `GoogleService-Info.plist` file holds information of a single Firebase Application **ONLY**, which means we'll have to download 2 different `GoogleService-Info.plist` files (Staging / Production). You can do this by following the steps outlined in these pages:
 
 - [Adding Firebase to your App](https://firebase.google.com/docs/ios/setup#add_firebase_to_your_app)
 - [Downloading a configuration file](https://support.google.com/firebase/answer/7015592)
 
-Once you have the three files downloaded, place them on the appropriate folders under `<projectRoot>/ios/RNBootstrap/Firebase/`.
+Once you have downloaded them, place them on the appropriate folders under `<projectRoot>/ios/RNBootstrap/Firebase/`.
 
 ### Firebase - Android setup:
 

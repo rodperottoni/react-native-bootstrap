@@ -1,25 +1,30 @@
 import React, { Component } from 'react';
-import { StyleSheet, TouchableOpacity, Text, View } from 'react-native';
+import { StyleSheet, Platform, TouchableOpacity, TouchableNativeFeedback, Text, View } from 'react-native';
 import { Actions } from 'react-native-router-flux';
 import DeviceInfo from 'react-native-device-info';
 import Icon from 'react-native-vector-icons/MaterialIcons';
 
 import globalStyles from '../config/styles';
+
 const { fontLato, fontWhite, fontBold, flexRow, alignCenter } = globalStyles;
+
+const Button = Platform.OS === 'android' ? TouchableNativeFeedback : TouchableOpacity;
 
 export default class App extends Component {
     render() {
         return (
             <View style={styles.container}>
                 <Text style={styles.welcome}>Welcome</Text>
-                <Text style={styles.instructions}>App ID: {DeviceInfo.getBundleId()}</Text>
+                <Text style={styles.appId}>App ID: {DeviceInfo.getBundleId()}</Text>
 
-                <TouchableOpacity onPress={Actions.safeViewScreen} style={styles.button}>
-                    <Icon name="phone-iphone" color="white" size={25} />
-                    <Text style={[fontLato, fontBold, fontWhite]}>
-                        Button with Vector Icon
-                    </Text>
-                </TouchableOpacity>
+                <Button onPress={Actions.safeViewScreen}>
+                    <View style={styles.button}>
+                        <Icon name="phone-iphone" color="white" size={25} />
+                        <Text style={[fontLato, fontBold, fontWhite]}>
+                            Button with Vector Icon
+                        </Text>
+                    </View>
+                </Button>
             </View>
         );
     }
@@ -44,7 +49,7 @@ const styles = StyleSheet.create({
         textAlign: 'center',
         margin: 10,
     },
-    instructions: {
+    appId: {
         textAlign: 'center',
         color: '#333333',
         marginBottom: 5,

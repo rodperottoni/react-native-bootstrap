@@ -30,6 +30,7 @@
 		E2D6DBED21C9E0FC009AD8E0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D6DBEC21C9E0FC009AD8E0 /* main.m */; };
 		E2D6DBF621C9E16E009AD8E0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E2D6DBF521C9E16E009AD8E0 /* Images.xcassets */; };
 		E2D6DBF721C9E1AC009AD8E0 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = E2D6DBF121C9E120009AD8E0 /* LaunchScreen.xib */; };
+		ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ED297162215061F000B7C4FE /* JavaScriptCore.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -152,20 +153,6 @@
 			remoteGlobalIDString = 3D383D621EBD27B9005632C8;
 			remoteInfo = "double-conversion-tvOS";
 		};
-		2DF0FFEA2056DD460020B375 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9936F3131F5F2E4B0010BF04;
-			remoteInfo = privatedata;
-		};
-		2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 9936F32F1F5F2E5B0010BF04;
-			remoteInfo = "privatedata-tvOS";
-		};
 		3DAD3E831DF850E9000B6D8A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 00C302BB1ABCB91800DB3ED1 /* RCTImage.xcodeproj */;
@@ -243,20 +230,6 @@
 			remoteGlobalIDString = 3D3CD9321DE5FBEE00167DC4;
 			remoteInfo = "cxxreact-tvOS";
 		};
-		3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD90B1DE5FBD600167DC4;
-			remoteInfo = jschelpers;
-		};
-		3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 3D3CD9181DE5FBD800167DC4;
-			remoteInfo = "jschelpers-tvOS";
-		};
 		5E9157321DD0AC6500FF2AA8 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 5E91572D1DD0AC6500FF2AA8 /* RCTAnimation.xcodeproj */;
@@ -306,6 +279,34 @@
 			remoteGlobalIDString = 134814201AA4EA6300B7C361;
 			remoteInfo = RNFirebase;
 		};
+		E2F18462220033DF00EA0954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC6D6214B3E7000DD5AC8;
+			remoteInfo = jsi;
+		};
+		E2F18464220033DF00EA0954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = EDEBC73B214B45A300DD5AC8;
+			remoteInfo = jsiexecutor;
+		};
+		E2F18466220033DF00EA0954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FB6214C9A0900B7C4FE;
+			remoteInfo = "jsi-tvOS";
+		};
+		E2F18468220033DF00EA0954 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 146833FF1AC3E56700842450 /* React.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = ED296FEE214C9CF800B7C4FE;
+			remoteInfo = "jsiexecutor-tvOS";
+		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
@@ -339,10 +340,8 @@
 		E2D6DBEF21C9E120009AD8E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E2D6DBF221C9E120009AD8E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = LaunchScreen.xib; sourceTree = "<group>"; };
 		E2D6DBF521C9E16E009AD8E0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
-		E2D6DC4721C9EB1B009AD8E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E2D6DC4921C9EB1B009AD8E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		E2D6DC4B21C9EB1B009AD8E0 /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		E454C47B2067ACCE9CF78C53 /* Pods-RNBootstrap.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBootstrap.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNBootstrap/Pods-RNBootstrap.debug.xcconfig"; sourceTree = "<group>"; };
+		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		F1816A31461A67293D0E551A /* Pods-RNBootstrap.staging.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBootstrap.staging.xcconfig"; path = "Pods/Target Support Files/Pods-RNBootstrap/Pods-RNBootstrap.staging.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -351,6 +350,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED297163215061F000B7C4FE /* JavaScriptCore.framework in Frameworks */,
 				ADBDB9381DFEBF1600ED6528 /* libRCTBlob.a in Frameworks */,
 				11D1A2F320CAFA9E000508D9 /* libRCTAnimation.a in Frameworks */,
 				146834051AC3E58100842450 /* libReact.a in Frameworks */,
@@ -442,16 +442,16 @@
 				3DAD3EA71DF850E9000B6D8A /* libyoga.a */,
 				3DAD3EA91DF850E9000B6D8A /* libcxxreact.a */,
 				3DAD3EAB1DF850E9000B6D8A /* libcxxreact.a */,
-				3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */,
-				3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */,
 				2DF0FFDF2056DD460020B375 /* libjsinspector.a */,
 				2DF0FFE12056DD460020B375 /* libjsinspector-tvOS.a */,
 				2DF0FFE32056DD460020B375 /* libthird-party.a */,
 				2DF0FFE52056DD460020B375 /* libthird-party.a */,
 				2DF0FFE72056DD460020B375 /* libdouble-conversion.a */,
 				2DF0FFE92056DD460020B375 /* libdouble-conversion.a */,
-				2DF0FFEB2056DD460020B375 /* libprivatedata.a */,
-				2DF0FFED2056DD460020B375 /* libprivatedata-tvOS.a */,
+				E2F18463220033DF00EA0954 /* libjsi.a */,
+				E2F18465220033DF00EA0954 /* libjsiexecutor.a */,
+				E2F18467220033DF00EA0954 /* libjsi-tvOS.a */,
+				E2F18469220033DF00EA0954 /* libjsiexecutor-tvOS.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -459,6 +459,7 @@
 		2D16E6871FA4F8E400B85C8A /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				ED297162215061F000B7C4FE /* JavaScriptCore.framework */,
 				2D16E6891FA4F8E400B85C8A /* libReact.a */,
 				9AA111539B98AEB2FA7A6026 /* libPods-SandboxRudy.a */,
 				41267A75FF9327C1857FCCC4 /* libPods-RNBootstrap.a */,
@@ -579,7 +580,6 @@
 		E2D6DBF421C9E132009AD8E0 /* RNBootstrap */ = {
 			isa = PBXGroup;
 			children = (
-				E2D6DC4521C9EB1B009AD8E0 /* Firebase */,
 				E2D6DBF021C9E120009AD8E0 /* Base.lproj */,
 				E2D6DBEF21C9E120009AD8E0 /* Info.plist */,
 				E2D6DBEC21C9E0FC009AD8E0 /* main.m */,
@@ -604,41 +604,6 @@
 				E2D6DC3C21C9E6BF009AD8E0 /* libRNFirebase.a */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		E2D6DC4521C9EB1B009AD8E0 /* Firebase */ = {
-			isa = PBXGroup;
-			children = (
-				E2D6DC4621C9EB1B009AD8E0 /* Prod */,
-				E2D6DC4821C9EB1B009AD8E0 /* Staging */,
-				E2D6DC4A21C9EB1B009AD8E0 /* Dev */,
-			);
-			name = Firebase;
-			path = RNBootstrap/Firebase;
-			sourceTree = SOURCE_ROOT;
-		};
-		E2D6DC4621C9EB1B009AD8E0 /* Prod */ = {
-			isa = PBXGroup;
-			children = (
-				E2D6DC4721C9EB1B009AD8E0 /* GoogleService-Info.plist */,
-			);
-			path = Prod;
-			sourceTree = "<group>";
-		};
-		E2D6DC4821C9EB1B009AD8E0 /* Staging */ = {
-			isa = PBXGroup;
-			children = (
-				E2D6DC4921C9EB1B009AD8E0 /* GoogleService-Info.plist */,
-			);
-			path = Staging;
-			sourceTree = "<group>";
-		};
-		E2D6DC4A21C9EB1B009AD8E0 /* Dev */ = {
-			isa = PBXGroup;
-			children = (
-				E2D6DC4B21C9EB1B009AD8E0 /* GoogleService-Info.plist */,
-			);
-			path = Dev;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -874,20 +839,6 @@
 			remoteRef = 2DF0FFE82056DD460020B375 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		2DF0FFEB2056DD460020B375 /* libprivatedata.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libprivatedata.a;
-			remoteRef = 2DF0FFEA2056DD460020B375 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		2DF0FFED2056DD460020B375 /* libprivatedata-tvOS.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = "libprivatedata-tvOS.a";
-			remoteRef = 2DF0FFEC2056DD460020B375 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		3DAD3E841DF850E9000B6D8A /* libRCTImage-tvOS.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -965,20 +916,6 @@
 			remoteRef = 3DAD3EAA1DF850E9000B6D8A /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		3DAD3EAD1DF850E9000B6D8A /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = 3DAD3EAC1DF850E9000B6D8A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		3DAD3EAF1DF850E9000B6D8A /* libjschelpers.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libjschelpers.a;
-			remoteRef = 3DAD3EAE1DF850E9000B6D8A /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
 		5E9157331DD0AC6500FF2AA8 /* libRCTAnimation.a */ = {
 			isa = PBXReferenceProxy;
 			fileType = archive.ar;
@@ -1021,6 +958,34 @@
 			remoteRef = E2D6DC3B21C9E6BF009AD8E0 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
+		E2F18463220033DF00EA0954 /* libjsi.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsi.a;
+			remoteRef = E2F18462220033DF00EA0954 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E2F18465220033DF00EA0954 /* libjsiexecutor.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libjsiexecutor.a;
+			remoteRef = E2F18464220033DF00EA0954 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E2F18467220033DF00EA0954 /* libjsi-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsi-tvOS.a";
+			remoteRef = E2F18466220033DF00EA0954 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		E2F18469220033DF00EA0954 /* libjsiexecutor-tvOS.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libjsiexecutor-tvOS.a";
+			remoteRef = E2F18468220033DF00EA0954 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
@@ -1054,6 +1019,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "export DEVELOPMENT_BUILD_CONFIGURATIONS=\"+(Debug)\"\nexport NODE_BINARY=node\n../node_modules/react-native-schemes-manager/lib/react-native-xcode.sh";
+			showEnvVarsInLog = 0;
 		};
 		48F2D1DE697836BCCC94BD0E /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1144,6 +1110,7 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/run\"\n";
+			showEnvVarsInLog = 0;
 		};
 		E2D6DBE721C9E082009AD8E0 /* [Firebase] Upload dSYMs */ = {
 			isa = PBXShellScriptBuildPhase;
@@ -1162,10 +1129,11 @@
 			runOnlyForDeploymentPostprocessing = 1;
 			shellPath = /bin/sh;
 			shellScript = "\"${PODS_ROOT}/Fabric/upload-symbols\" -gsp \"${PROJECT_DIR}/GoogleService-Info.plist\" -p ios \"${DWARF_DSYM_FOLDER_PATH}/${DWARF_DSYM_FILE_NAME}\"\n";
+			showEnvVarsInLog = 0;
 		};
 		E2D6DC4C21C9EB3F009AD8E0 /* Setup Firebase Environment GoogleService-Info.plist */ = {
 			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
+			buildActionMask = 12;
 			files = (
 			);
 			inputFileListPaths = (
@@ -1179,7 +1147,8 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\n# Get references to dev and prod versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_DEV=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Dev/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_PROD=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Prod/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_STAGING=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Staging/${GOOGLESERVICE_INFO_PLIST}\n\n# Make sure the dev version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEV}\"\nif [ ! -f $GOOGLESERVICE_INFO_DEV ]\nthen\necho \"No Development GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_PROD}\"\nif [ ! -f $GOOGLESERVICE_INFO_PROD ]\nthen\necho \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_STAGING}\"\nif [ ! -f $GOOGLESERVICE_INFO_STAGING ]\nthen\necho \"No Staging GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\necho \"Using ${GOOGLESERVICE_INFO_PROD}\"\ncp \"${GOOGLESERVICE_INFO_PROD}\" \"${PLIST_DESTINATION}\"\nelif [ \"${CONFIGURATION}\" == \"Staging\" ]\nthen\necho \"Using ${GOOGLESERVICE_INFO_STAGING}\"\ncp \"${GOOGLESERVICE_INFO_STAGING}\" \"${PLIST_DESTINATION}\"\nelse \necho \"Using ${GOOGLESERVICE_INFO_DEV}\"\ncp \"${GOOGLESERVICE_INFO_DEV}\" \"${PLIST_DESTINATION}\"\nfi\n";
+			shellScript = "# Name of the resource we're selectively copying\nGOOGLESERVICE_INFO_PLIST=GoogleService-Info.plist\n\n# Get references to different versions of the GoogleService-Info.plist\n# NOTE: These should only live on the file system and should NOT be part of the target (since we'll be adding them to the target manually)\nGOOGLESERVICE_INFO_PROD=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Prod/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_STAGING=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Staging/${GOOGLESERVICE_INFO_PLIST}\nGOOGLESERVICE_INFO_DEBUG=${PROJECT_DIR}/${TARGET_NAME}/Firebase/Dev/${GOOGLESERVICE_INFO_PLIST}\n\n# Make sure the prod version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_PROD}\"\nif [ ! -f $GOOGLESERVICE_INFO_PROD ]\nthen\necho \"No Production GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n\n# Make sure the staging version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_STAGING}\"\nif [ ! -f $GOOGLESERVICE_INFO_STAGING ]\nthen\necho \"No Staging GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n\n# Make sure the debug version of GoogleService-Info.plist exists\necho \"Looking for ${GOOGLESERVICE_INFO_PLIST} in ${GOOGLESERVICE_INFO_DEBUG}\"\nif [ ! -f $GOOGLESERVICE_INFO_STAGING ]\nthen\necho \"No Debug GoogleService-Info.plist found. Please ensure it's in the proper directory.\"\nexit 1\nfi\n\n# Get a reference to the destination location for the GoogleService-Info.plist\nPLIST_DESTINATION=${BUILT_PRODUCTS_DIR}/${PRODUCT_NAME}.app\necho \"Will copy ${GOOGLESERVICE_INFO_PLIST} to final destination: ${PLIST_DESTINATION}\"\n\n# Copy over the prod GoogleService-Info.plist for Release builds\nif [ \"${CONFIGURATION}\" == \"Release\" ]\nthen\necho \"Using ${GOOGLESERVICE_INFO_PROD}\"\ncp \"${GOOGLESERVICE_INFO_PROD}\" \"${PLIST_DESTINATION}\"\nelif [ \"${CONFIGURATION}\" == \"Staging\" ]\nthen\necho \"Using ${GOOGLESERVICE_INFO_STAGING}\"\ncp \"${GOOGLESERVICE_INFO_STAGING}\" \"${PLIST_DESTINATION}\"\nelif [ \"${CONFIGURATION}\" == \"Debug\" ]\nthen\necho \"Using ${GOOGLESERVICE_INFO_DEBUG}\"\ncp \"${GOOGLESERVICE_INFO_DEBUG}\" \"${PLIST_DESTINATION}\"\nfi\n";
+			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
 
@@ -1258,7 +1227,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/yoga\"",
 					"\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"",
-					"\"$(SRCROOT)/RNBootstrap\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1314,7 +1283,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/yoga\"",
 					"\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"",
-					"\"$(SRCROOT)/RNBootstrap\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
@@ -1524,7 +1493,7 @@
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/glog\"",
 					"\"${PODS_CONFIGURATION_BUILD_DIR}/yoga\"",
 					"\"$(BUILD_DIR)/Release$(EFFECTIVE_PLATFORM_NAME)\"",
-					"\"$(SRCROOT)/RNBootstrap\"",
+					"\"$(SRCROOT)/$(TARGET_NAME)\"",
 				);
 				OTHER_LDFLAGS = (
 					"$(inherited)",
